@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="Chile"> 
+        <meta name="viewport" content="width=decide-width, initial-scale=1.0">
+        <title>Santiago de Chile</title>
+        <link href="index.css" rel="stylesheet">   
+    </head>
+    <body>
+        <div>
+        <nav class="header">
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="visit_activitis.html">Actividades</a></li>
+            <li><a href="entertaiments.html">Entretenimientos</a></li>
+            <li><a href="about.html">Acerca</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <form method="post" action="mailto:gabrieljesus.duerto@gmail.com">
+            <label for="name">Nombre Completo:</label>
+            <input id="name" type="text" value=""><br><br>
+            <label for="email">Correo Electronico:</label>
+            <input id="email" type="email"><br><br>
+            <label for="genero">Genero:</label>
+            <input type="radio" id="fem">
+            <label for="fem">Femenino</label>
+            <input type="radio" id="masc">
+            <label for="masc">Masculino</label><br><br>
+            <label for="talla">Talla:</label>
+                <select name="talla" id="talla">
+                    <option value="">seleccione</option>
+                    <option value="p">Pequeño</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Largo</option>
+                </select><br><br>
+            <label>Consulta:</label>
+            <textarea name="nota" id="nota" cols="40" rows="6">Descripcion:</textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    </body>
+</html>
